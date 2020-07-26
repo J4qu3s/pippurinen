@@ -1,0 +1,444 @@
+/* 
+Theme Name: Pepper theme 
+Theme URL: http://jaq.com
+Description: Pepper Theme - Child of TwentySixteen
+Author: Jarkko Höyhtyä
+Author URL: http://jaq.com
+Template: twentysixteen
+Version: 1.0.1 
+Text Domain: twentysixteen-child 
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+
+p {
+  font-family: 'Alatsi', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Abril Fatface', cursive;
+}
+.entry-title {
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+}
+
+/* The navigation bar */
+
+/*
+.site-header-main {   
+    position: fixed ;
+    right:21px;
+    background-color:white;
+    z-index: 1;
+    height: 15vh;
+  }
+  */
+  .site-header {
+    position: fixed;
+    top: 0; 
+    left: 21px; 
+    right:21px;
+    background-color:white;
+    z-index: 1;
+    height: 30px;   
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+    justify-content: center; /* Horizontal center alignment */
+    
+  }
+
+  .entry-header {
+
+  }
+
+  @media screen and (min-width: 61.5625em){
+    .site-header {
+    
+    padding: 5.25em 4.5455% 2.4375em 4.5455%;
+  }
+}
+
+@media screen and (min-width: 44.375em){
+  .site-header {
+    
+      padding: 5.9375em 7.6923% 2.4375em 7.6923%;
+  }
+}
+  
+  .pip-kuvaus {
+    clear: both;
+  }
+
+  .custom-logo {
+    height: 5vh;
+    width: 5vh; 
+    float: left;
+    width: auto;
+}
+
+.site-branding {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  font-size: 1.3vw;
+}
+
+
+.menu-item {
+  font-size: 1.4vw;
+}
+
+.site-title {
+  font-size: 2vw;
+
+}
+
+.site-description{
+  font-size: 1vw;
+}
+
+.header-image {
+  margin: 13vh 0 11vh 0;
+}
+
+
+/* header widget area */
+
+#header-widget-area {
+  margin: 0 5vw 0 0;
+}
+
+.site-branding {
+  margin: 0 15px 0 0 !important;
+}
+
+/* mobile menu adjustment */
+@media screen and (max-width: 56.875em){
+.menu-toggle.toggled-on {
+  position: absolute;
+  margin-top: 5vh;
+  z-index: 2;
+  padding: 2.5vh 5vw;
+  left: 50%;
+  margin-left: -10vw;
+}
+
+
+ .site-header-menu.toggled-on {
+  
+  top: 15px;
+  display: block;
+  position: fixed;
+  padding: 20vh 15vw 5vh 15vw;
+  top: 0px;
+  right: 0px;
+  background-color: white;
+  margin: 0;
+  
+  
+ }
+
+ .site-header-menu.toggled-on {
+   /* padding: 15vh 25vw 15vh 25vw; */
+   height: 100vh;
+   width: 100vw;
+   font-size: 2vh;
+ }
+
+ 
+
+ .toggled-on + button {
+  display: none; 
+ }
+ .site-header-menu.toggled-on a {
+  font-size: 2vh;
+}
+
+button.dropdown-toggle.toggled-on {
+  position: absolute;
+}
+.main-navigation ul .sub-menu {
+
+  background-color:white;
+  position: inherit;
+  
+
+}
+}
+/* Mobile Cross */
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 80px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+  background-color: white;
+  
+  
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+  background-color: white;
+  
+}
+/* Different header image for different pages */
+
+.page-id-415 #agama-header-image  {
+  content: url('https://res.cloudinary.com/fleurop/cmsimages2/content/newsletter/alles-ueber-blumen/valentinstag-rosenblaetter-header.jpg'); 
+ }
+
+
+/* Font Awesome */
+/* Social buttons 
+
+#some {
+  display: flex;
+  position: absolute;
+  right: 2vw;
+  top: 10vh;
+  color: white;
+  flex-direction: row;
+}
+
+#some .fa {
+display:flex;
+align-items:center;
+justify-content: center;
+padding: 25px;
+margin: 0.3vh;
+width: 30px;
+height: 30px;
+text-decoration: none;
+font-size: 35px;
+border-radius: 25%;
+transition: 1s;
+opacity: 0.6;
+}
+
+#some .fa:hover {
+  opacity: 1;
+  border-radius: 50%;
+  
+}
+
+*/
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+
+.fa-instagram {
+background: #125688;
+color: white;
+}
+
+.fa-pinterest {
+background: #cb2027;
+color: white;
+}
+
+
+.fa-flickr {
+background: #f40083;
+color: white;
+}
+
+
+#some2 {
+  display: flex;
+  position: fixed;
+  left : 23px;
+  bottom: 40vh;
+  align-self: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  z-index: 2;
+}
+
+#some2 .fa {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  padding: 1.6vw;
+  margin: 0.3vh;
+  width: 2vw;
+  height: 2vw;
+  text-decoration: none;
+  font-size: 2vw;
+  border-radius: 25%;
+  transition: 1s;
+  opacity: 0.6;
+}
+
+#some2 .fa:hover {
+  opacity: 1;
+  border-radius: 50%; 
+  color: white;
+}
+
+
+@media screen and (max-width: 44.375em){
+  #some2 {
+    display: flex;
+    position: fixed;
+    width: 100% !important;
+    height: 50px;
+    background-color: #fff;
+    bottom: 0px;
+    left: 0px !important;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    flex-direction: row;
+    z-index: 2;
+    border-top: solid 1px #171717;
+    padding: 0 40px 0 40px;
+  }
+  
+  #some2 .fa {
+    
+    padding: 10px;
+    margin: 0.3vh;
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 25%;
+    transition: 1s;
+    opacity: 0.6;
+  }
+
+  .site-footer {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 56.875em){
+  #some2 .fa {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+  }
+
+  #some2{
+    left : 23px;
+  }
+
+}
+
+@media screen and (max-width: 44.375em) {
+
+  .site-header {
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #171717;
+  }
+
+  .site-footer {
+    border-top: 1px #3d3d3d solid;
+    padding-top: 25px;
+  }
+
+  .site-footer li a {
+    font-size: 12px;
+  }
+}
+
+/* Category 1stchild+ post adjustments*
+
+.post + .post{
+  width: 50%;
+  float: left;
+  text-align: center;
+
+  padding: 5px;
+}
+
+.post + .post .entry-content {
+  display:none;
+  margin-bottom: 25px;
+}
+
+.post + .post .entry-footer{
+  color: red;
+}
+
+@media screen and (min-width: 61.5625em){
+body:not(.search-results) article:not(.type-page) .entry-footer {
+    margin-top: 0.1538461538em;
+    width: auto;
+    float: none;
+
+  }
+}
+
+
+
+/*more link */
+
+.more-link {
+  display: flex;
+  min-width: 100%;
+  margin: 25px 0 0 0;
+  padding: 15px 15px 15px 15px;
+  text-decoration: none;
+  border: solid #3d3d3d;
+  border-width: 1px 1px 4px 1px;
+  font-family: 'Alatsi', sans-serif;
+  font-size: 14px;
+  width: 100%;
+  margin: 0 0 0 0;
+  color: #3d3d3d;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  align-self: center;
+  
+}
+
+.site-footer {
+  /*
+  border-top: 1px #3d3d3d solid;
+  padding-top: 25px;
+  */
+}
+
+#site-header-menu {
+  border-bottom: solid 1px #000;
+}
