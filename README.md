@@ -1,0 +1,2 @@
+# pippurinen
+Pippurinen wordpress theme
