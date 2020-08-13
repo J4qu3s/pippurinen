@@ -136,10 +136,10 @@
 
 		<div id="content" class="site-content">
 		<div id="some2" class="socials-menu2">
-						<a href="#" class="fa fa-facebook"></a>
-						<a href="#" class="fa fa-youtube"></a>
-						<a href="#" class="fa fa-instagram"></a>
-						<a href="#" class="fa fa-pinterest"></a>
+						<a href="https://www.facebook.com/Pippurinen-blogi-110719014022072/" class="fa fa-facebook" target="_blank"></a>
+						<a href="https://www.youtube.com/channel/UCUVceDzBlEOFsmdc06f_JkQ" class="fa fa-youtube" target="_blank"></a>
+						<a href="https://www.instagram.com/pippurinen.fi/?hl=fi" class="fa fa-instagram" target="_blank"></a>
+						<a href="https://fi.pinterest.com/karoliina1728/" class="fa fa-pinterest" target="_blank"></a>
 						
 					</div>
 			
