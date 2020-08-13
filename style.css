@@ -63,15 +63,32 @@ h1, h2, h3, h4, h5, h6 {
   @media screen and (min-width: 61.5625em){
     .site-header {
     
-    padding: 5.25em 4.5455% 0 4.5455%;
+    padding: 0;
+    margin: 25px 5px 5px 5px;
   }
 }
 
 @media screen and (min-width: 44.375em){
+  
   .site-header {
-    
-      padding: 5.9375em 7.6923% 0 7.6923%;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 50px 10px 20px 10px;
+    border-bottom: 1px solid #171717;
   }
+
+  .site-footer {
+    border-top: 1px #3d3d3d solid;
+    padding-top: 25px;
+  }
+
+  .site-footer li a {
+    font-size: 12px;
+  
+}
+
+
 }
 
   
@@ -144,6 +161,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 
+
+
   .site-header-menu.toggled-on {
     
     top: 15px;
@@ -185,6 +204,8 @@ h1, h2, h3, h4, h5, h6 {
 
   }
 }
+
+
 
 
 /* Mobile Cross */
@@ -380,23 +401,7 @@ color: white;
 
 }
 
-@media screen and (max-width: 44.375em) {
 
-  .site-header {
-    left: 0;
-    right: 0;
-    border-bottom: 1px solid #171717;
-  }
-
-  .site-footer {
-    border-top: 1px #3d3d3d solid;
-    padding-top: 25px;
-  }
-
-  .site-footer li a {
-    font-size: 12px;
-  }
-}
 
 /* Category 1stchild+ post adjustments*
 
