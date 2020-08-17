@@ -72,7 +72,7 @@
 				<?php endif; ?>
 				<!-- end of search -->		
 				<?php if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) ) : ?>
-					<button id="menu-toggle" class="menu-toggle" onclick="menuFunc(this)"><div class="container">
+					<button id="menu-toggle" class="menu-toggle" onclick="menuFunc(this)"><div class="mobile-menu-container">
 						<div class="bar1"></div>
 						<div class="bar2"></div>
 						<div class="bar3"></div>
