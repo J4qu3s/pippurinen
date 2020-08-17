@@ -20,6 +20,12 @@ p {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Abril Fatface', cursive;
 }
+
+.entry-header {
+  border-top: 4px solid #1a1a1a;
+  padding-top: 15px;
+}
+
 .entry-title {
   font-family: 'Abril Fatface', cursive;
   text-align: center;
@@ -89,22 +95,26 @@ h1, h2, h3, h4, h5, h6 {
   .site-footer li a {
     font-size: 12px;
   
-}
-
-
+  }
+  .header-image {
+    display: none;
+  }
+  .site-content {
+    padding-top: 125px;
+  }
 }
 
   
-  .pip-kuvaus {
-    clear: both;
-  }
+.pip-kuvaus {
+  clear: both;
+}
 
-  .custom-logo {
-    float: left;
-    height: 50px;
-    width: 50px;    
-    padding: 5px;
-    margin: 5px;
+.custom-logo {
+  float: left;
+  height: 50px;
+  width: 50px;    
+  padding: 5px;
+  margin: 5px;
 }
 
 .site-branding {
@@ -112,7 +122,9 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: center;
   align-self: center;
-  font-size: 1.3vw;
+  
+  margin: 0 50px 0 0;
+  
 }
 
 
@@ -121,27 +133,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-title {
-  font-size: 2vw;
+  font-size: 14px;
+  padding-bottom: 4px;
+  border-bottom:1px solid #1a1a1a;
 
 }
 
 .site-description{
-  font-size: 1vw;
+  font-size: 12px;
 }
 
 .header-image {
   margin: 121px 21px 50px 21px;
 }
 
-
 /* header widget area */
 
 #header-widget-area {
-  margin: 0 5vw 0 0;
-}
-
-.site-branding {
-  margin: 0 15px 0 0 !important;
+  margin: 0 50px 0 0;
 }
 
 
