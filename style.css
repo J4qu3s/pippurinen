@@ -471,8 +471,8 @@ body:not(.search-results) article:not(.type-page) .entry-footer {
 }
 
 .site-footer {
-  /*
+  
   border-top: 1px #3d3d3d solid;
   padding-top: 25px;
-  */
+  background-color: #f7f7f7;
 }
