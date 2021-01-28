@@ -25,7 +25,7 @@
 		<?php
 			/* translators: %s: Name of current post */
 			the_content( sprintf(
-				__( 'LUE KOKONAAN >><span class="screen-reader-text"> "%s"</span>', 'twentysixteen' ),
+				__( 'Lue koko tarina<span class="screen-reader-text"> "%s"</span>', 'twentysixteen' ),
 				get_the_title()
 			) );
 

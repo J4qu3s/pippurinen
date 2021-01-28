@@ -225,8 +225,12 @@ h1, h2, h3, h4, h5, h6 {
 
   }
 }
-
-
+/*
+.post {
+  
+  padding: 5px;
+}
+*/
 
 
 /* Mobile Cross */
@@ -344,27 +348,26 @@ color: white;
   display: flex;
   position: fixed;
   left : 23px;
-  bottom: 40vh;
-  align-self: center;
-  justify-content: center;
+  align-items: center;
+  
   color: white;
   flex-direction: column;
   z-index: 2;
 }
 
 #some2 .fa {
-  display:flex;
-  align-items:center;
-  justify-content: center;
-  padding: 1.6vw;
-  margin: 0.3vh;
-  width: 2vw;
-  height: 2vw;
-  text-decoration: none;
-  font-size: 2vw;
-  border-radius: 25%;
-  transition: 1s;
-  opacity: 0.6;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 25%;
+    transition: 1s;
+    opacity: 0.6;
 }
 
 #some2 .fa:hover {
@@ -395,7 +398,7 @@ color: white;
   #some2 .fa {
     
     padding: 10px;
-    margin: 0.3vh;
+    margin: 5px;
     width: 20px;
     height: 20px;
     text-decoration: none;
@@ -458,22 +461,21 @@ body:not(.search-results) article:not(.type-page) .entry-footer {
 /*more link */
 
 .more-link {
-  display: flex;
+  display: inline-block;
+  width: 100%;
   min-width: 100%;
   margin: 25px 0 0 0;
   padding: 15px 15px 15px 15px;
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
   text-decoration: none;
-  border: solid #3d3d3d;
-  border-width: 1px 1px 4px 1px;
-  font-family: 'Alatsi', sans-serif;
-  font-size: 14px;
-  width: 100%;
-  margin: 0 0 0 0;
-  color: #3d3d3d;
-  width: 100%;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  align-self: center;
+  background: rgb(43,43,43);
+background: radial-gradient(circle, rgba(43,43,43,1) 0%, rgba(0,0,0,1) 100%);
+  
+  font-size: 20px;
+  color: #ffffff;
+  border-radius: 5px;
+  
   
 }
 
