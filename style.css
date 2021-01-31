@@ -466,16 +466,12 @@ body:not(.search-results) article:not(.type-page) .entry-footer {
 
 /* Post adjustment */
 
-.entry-content {
-  width: 100%;
-}
-
 @media screen and (min-width: 61.5625em){
   
     body:not(.search-results) article:not(.type-page) .entry-content {
       float: right;
       width: 100%;
-
+    }
   
 }
 
