@@ -5,7 +5,7 @@ Description: Pepper Theme - Child of TwentySixteen
 Author: Jarkko Höyhtyä
 Author URL: http://jaq.com
 Template: twentysixteen
-Version: 1.0.1 
+Version: 1.0.2 
 Text Domain: twentysixteen-child 
 */
 
@@ -31,58 +31,27 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-/* The navigation bar */
-
-/*
-.site-header-main {   
-    position: fixed ;
-    right:21px;
-    background-color:white;
-    z-index: 1;
-    height: 15vh;
-  }
-  */
-  .site-header {
-    position: fixed;
-    left: 21px; 
-    right:21px;
-    top:21px;
-    z-index: 1;
-    height: 100px;
-    display: flex;
-    align-items: center; /* Vertical center alignment */
-    justify-content: center; /* Horizontal center alignment */
-    background-color:white;
-    border-bottom: 1px #171717 solid;
-    padding: 25px 10px;
-    
-    
-  }
-  /*
-  .site-header-menu {
-    margin-bottom: 0;
-    margin-top: 0;
-  }
-  */
-
-  body:not(.home) .header-image{
-    display:none;
+.site-header {
+  position: fixed;
+  left: 21px; 
+  right:21px;
+  top:21px;
+  z-index: 1;
+  height: 100px;
+  display: flex;
+  align-items: center; /* Vertical center alignment */
+  justify-content: center; /* Horizontal center alignment */
+  background-color:white;
+  border-bottom: 1px #171717 solid;
+  padding: 25px 10px;
 }
+
+body:not(.home) .header-image{
+  display:none;
+}
+
 body:not(.home) .site-content{
   margin-top: 100px;
-}
-
-
-  .entry-header {
-
-  }
-
-  @media screen and (max-width: 61.5625em){
-    .site-header {
-    
-    
-    
-  }
 }
 
 @media screen and (max-width: 44.375em){
@@ -134,11 +103,8 @@ body:not(.home) .site-content{
   align-items: center;
   justify-content: center;
   align-self: center;
-  
-  margin: 0 50px 0 0;
-  
+  margin: 0 50px 0 0; 
 }
-
 
 .menu-item {
   font-size: 12px;
@@ -148,7 +114,6 @@ body:not(.home) .site-content{
   font-size: 14px;
   padding-bottom: 4px;
   border-bottom:1px solid #1a1a1a;
-
 }
 
 .site-description{
@@ -163,7 +128,6 @@ body:not(.home) .site-content{
   
   width: 100%;
   height: auto;
-  
 }
 
 /* header widget area */
@@ -171,14 +135,6 @@ body:not(.home) .site-content{
 #header-widget-area {
   margin: 0 50px 0 0;
 }
-
-
-/*
-#site-header-menu {
-  border-bottom: solid 1px #000;
-}
-*/
-
 
 /* mobile menu adjustment */
 @media screen and (max-width: 56.875em){
@@ -189,11 +145,7 @@ body:not(.home) .site-content{
     padding: 25px 50px;
   }
 
-
-
-
   .site-header-menu.toggled-on {
-    
     top: 15px;
     display: block;
     position: fixed;
@@ -202,22 +154,18 @@ body:not(.home) .site-content{
     right: 0px;
     background-color: white;
     margin: 0;
-    
-    
   }
 
   .site-header-menu.toggled-on {
-    /* padding: 15vh 25vw 15vh 25vw; */
     height: 100%;
     width: 100%;
     font-size: 2vh;
   }
 
-  
-
   .toggled-on + button {
     display: none; 
   }
+
   .site-header-menu.toggled-on a {
     font-size: 2vh;
   }
@@ -226,20 +174,10 @@ body:not(.home) .site-content{
     position: absolute;
   }
   .main-navigation ul .sub-menu {
-
     background-color:white;
     position: inherit;
-    
-
   }
 }
-/*
-.post {
-  
-  padding: 5px;
-}
-*/
-
 
 /* Mobile Cross */
 
@@ -261,8 +199,6 @@ body:not(.home) .site-content{
   -webkit-transform: rotate(-45deg) translate(-9px, 6px);
   transform: rotate(-45deg) translate(-9px, 6px);
   background-color: white;
-  
-  
 }
 
 .change .bar2 {opacity: 0;}
@@ -271,49 +207,10 @@ body:not(.home) .site-content{
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
   background-color: white;
-  
 }
-/* Different header image for different pages */
-
-.page-id-415 #agama-header-image  {
-  content: url('https://res.cloudinary.com/fleurop/cmsimages2/content/newsletter/alles-ueber-blumen/valentinstag-rosenblaetter-header.jpg'); 
- }
-
 
 /* Font Awesome */
-/* Social buttons 
-
-#some {
-  display: flex;
-  position: absolute;
-  right: 2vw;
-  top: 10vh;
-  color: white;
-  flex-direction: row;
-}
-
-#some .fa {
-display:flex;
-align-items:center;
-justify-content: center;
-padding: 25px;
-margin: 0.3vh;
-width: 30px;
-height: 30px;
-text-decoration: none;
-font-size: 35px;
-border-radius: 25%;
-transition: 1s;
-opacity: 0.6;
-}
-
-#some .fa:hover {
-  opacity: 1;
-  border-radius: 50%;
-  
-}
-
-*/
+/* Social buttons */
 
 .fa-facebook {
 background: #3B5998;
@@ -345,12 +242,10 @@ background: #cb2027;
 color: white;
 }
 
-
 .fa-flickr {
 background: #f40083;
 color: white;
 }
-
 
 #some {
   height: 100%;
@@ -366,17 +261,17 @@ color: white;
 
 #some .fa {
   display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px;
-    margin: 5px;
-    width: 20px;
-    height: 20px;
-    text-decoration: none;
-    font-size: 20px;
-    border-radius: 25%;
-    transition: 1s;
-    opacity: 0.6;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin: 5px;
+  width: 20px;
+  height: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 25%;
+  transition: 1s;
+  opacity: 0.6;
 }
 
 #some .fa:hover {
@@ -433,46 +328,13 @@ color: white;
   }
 }
 
-
-
-
-/* Category 1stchild+ post adjustments*
-
-.post + .post{
-  width: 50%;
-  float: left;
-  text-align: center;
-
-  padding: 5px;
-}
-
-.post + .post .entry-content {
-  display:none;
-  margin-bottom: 25px;
-}
-
-.post + .post .entry-footer{
-  color: red;
-}
-
-@media screen and (min-width: 61.5625em){
-body:not(.search-results) article:not(.type-page) .entry-footer {
-    margin-top: 0.1538461538em;
-    width: auto;
-    float: none;
-
-  }
-}
-
 /* Post adjustment */
 
-@media screen and (min-width: 61.5625em){
-  
+@media screen and (min-width: 61.5625em){  
     body:not(.search-results) article:not(.type-page) .entry-content {
       float: right;
       width: 100%;
     }
-  
 }
 
 @media screen and (min-width: 61.5625em){
@@ -481,13 +343,13 @@ body:not(.search-results) article:not(.type-page) .entry-footer {
     width: 100%;
     margin-top: 15px;
   }
+
   body:not(.search-results) article:not(.type-page) .entry-footer span{
     padding-right: 15px;
   }
-
 }
 
-/*more link */
+/* Read more btn */
 
 .more-link {
   display: inline-block;
@@ -499,17 +361,13 @@ body:not(.search-results) article:not(.type-page) .entry-footer {
   text-align: center;
   text-decoration: none;
   background: rgb(43,43,43);
-background: radial-gradient(circle, rgba(43,43,43,1) 0%, rgba(0,0,0,1) 100%);
-  
+  background: radial-gradient(circle, rgba(43,43,43,1) 0%, rgba(0,0,0,1) 100%);
   font-size: 20px;
   color: #ffffff;
   border-radius: 5px;
-  
-  
 }
 
 .site-footer {
-  
   border-top: 1px #3d3d3d solid;
   padding-top: 25px;
   background-color: #f7f7f7;
